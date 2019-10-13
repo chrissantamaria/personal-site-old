@@ -51,11 +51,11 @@ export default function App() {
         >
           <LinkedInIcon fontSize="large" />
         </IconLink>
+      <IconLink title="Resume" link="/resume.pdf">
+        <PaperIcon fontSize="large" />
+      </IconLink>
         <IconLink title="Email" link="mailto:chris@santamaria.me?subject=Hey!">
           <EmailIcon fontSize="large" />
-        </IconLink>
-        <IconLink title="Resume" link="/resume.pdf">
-          <PaperIcon fontSize="large" />
         </IconLink>
       </div>
     </Container>
