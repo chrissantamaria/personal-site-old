@@ -22,17 +22,17 @@ export default function App() {
   return (
     <Container maxWidth="md" className="container">
       <Typography variant="h2" style={{ marginBottom: 10 }}>
-        Hi, I'm Chris Santamaria.
+      Hi! I'm Chris.
       </Typography>
       <Typography variant="h4" style={{ marginBottom: 40 }}>
         Student, fullstack web developer, and avid learner
       </Typography>
 
       <Typography variant="h6" style={{ marginBottom: 20 }}>
-        I'm a Computer Science student at the University of Virginia with
-        experience in numerous software engineering work environments. I'm
-        primarily skilled in full-stack web app development with Node.js and
-        React but always looking for new areas to expand my skill set.
+      I'm a Computer Science student at the University of Virginia with varied
+      experience in software engineering work environments. I'm primarily
+      skilled in fullstack web app development with Node.js and React but always
+      looking for new areas to expand my skill set.
       </Typography>
       <Typography variant="h6" component="p" style={{ marginBottom: 40 }}>
         Feel free to reach out through any of the platforms below or view my
