@@ -18,8 +18,7 @@ const IconLink = ({ title, link, children }) => (
   </Tooltip>
 );
 
-export default function App() {
-  return (
+export default () => (
     <Container maxWidth="md" className="container">
       <Typography variant="h2" style={{ marginBottom: 10 }}>
       Hi! I'm Chris.
@@ -60,4 +59,3 @@ export default function App() {
       </div>
     </Container>
   );
-}
