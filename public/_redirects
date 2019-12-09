@@ -1,0 +1,2 @@
+# Fallback in case I've sent my resume using the old self-hosted URL
+/resume.pdf            http://github.com/chrissantamaria/resume/releases/latest/download/resume.pdf
