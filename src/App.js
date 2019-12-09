@@ -54,7 +54,11 @@ export default () => (
           link="https://linkedin.com/in/chris-santamaria-10/"
           IconComponent={LinkedInIcon}
         />
-        <IconLink title="Resume" link="/resume.pdf" IconComponent={PaperIcon} />
+        <IconLink
+          title="Resume"
+          link="http://github.com/chrissantamaria/resume/releases/latest/download/resume.pdf"
+          IconComponent={PaperIcon}
+        />
         <IconLink
           title="Email"
           link="mailto:chris@santamaria.me?subject=Hey!"
