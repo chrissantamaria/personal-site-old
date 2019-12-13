@@ -6,10 +6,14 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [`Open Sans\:400`],
-        display: 'swap'
+        fonts: [
+          {
+            family: `Open Sans`,
+            variants: [`400`]
+          }
+        ]
       }
     },
     `gatsby-plugin-react-helmet`,
