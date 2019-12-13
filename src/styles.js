@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import codeImage from './assets/code.png';
 import { Container as MuiContainer } from '@material-ui/core';
-
-export const Background = styled.div`
-  background-image: url(${codeImage});
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
 
 export const Container = styled(props => (
   <MuiContainer maxWidth="md" {...props} />
